@@ -71,7 +71,7 @@ body{
 	font-family:lucida sans unicode;
 }
 
-input[type=text] {
+.input[type=text] {
     width: 130px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -87,15 +87,16 @@ input[type=text] {
 	float:right;
 }
 
-input[type=text]:focus {
+.input[type=text]:focus {
     width: 100%;
 }
 
 .pagina{
+	padding-bottom:10px;
 	margin:auto;
 	margin-bottom:40px;
 	width:98%;
-	height:500px;
+	height:auto;
 	background-color:white;
 }
 
@@ -181,4 +182,17 @@ input[type=text]:focus {
 	font-size:50px;
 	font-family:lucida sans unicode;
 }
-.
+.contact{
+	margin-left:10px;
+	border:3px solid gray;
+	padding: 10 0 0 20;
+	font-size:20px;
+	background-color:#c1c1c1;
+	width:50%;
+	font-family:lucida sans unicode;
+}
+.copyright{
+	width:100%;
+	background-color:gray;
+	text-align:center;
+}
